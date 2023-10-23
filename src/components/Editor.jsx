@@ -119,7 +119,7 @@ const Editor = ({ heading, language, value, onChange, icon, color }) => {
                   variant="outlined"
                   size="small"
                   color="primary"
-                  startIcon={ isLocked? <LockIcon/>: <LockOpenIcon/>}
+                  startIcon={ isLocked? <LockOpenIcon/>: <LockIcon/>}
                   onClick={handleLockUnLock}>
                    {isLocked ? "Unlock" : "Lock"}
                 </Button>
