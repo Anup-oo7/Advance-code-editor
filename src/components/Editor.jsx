@@ -1,4 +1,4 @@
-import { useState } from 'react';
+ import { useState } from 'react';
 
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/material.css';
@@ -24,7 +24,6 @@ import '../App.css';
 
 const Container = styled(Box)`
     flex-grow: 1;
-    flex-basic: 0;
     display: flex;
     flex-direction: column;
     padding: 0 8px 8px;

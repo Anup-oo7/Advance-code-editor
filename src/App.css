@@ -11,3 +11,9 @@
 .CodeMirror-scroll {
   background: #1d1e22;
 }
+.logo:active{
+ zoom: 300%;
+ margin-top: 10px !important;
+ margin-bottom: 10px !important;
+  
+}
